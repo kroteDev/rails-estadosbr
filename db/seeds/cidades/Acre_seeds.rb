@@ -1,4 +1,4 @@
-Acre = Estado.find_by_nome("Acre")
+Acre = Estado.find_by_sigla("AC")
 Acre.cidades.create(
   [
     {"nome": "Acrelândia"},
